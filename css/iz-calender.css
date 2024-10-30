@@ -1,0 +1,207 @@
+/*Defualt CSS called by user-interface in content area */
+div#content div#ui-izc div#ui-iz-calender-events {
+	background-color:#F2F2F2;
+	float:left;
+	margin-top:13px !important;
+	padding:5px !important;
+	width:30% !important;
+}
+div#content div#ui-izc {
+	width:100%;
+}
+div#content div#ui-izc div#ui-iz-calender-event-description {
+	float:left;
+	margin-left:15px !important;
+	margin-top:18px !important;
+	width:30% !important;
+	padding:0px 10px 10px 10px;
+	margin-top:13px;
+}
+div#content div#ui-izc div#iz-calender ul,div#iz-calender ul li{
+	list-style-type:none;
+}
+div#content div#ui-izc div#iz-calender label{
+	cursor:text;
+}
+div#content div#ui-izc div#iz-calender div .calender-months {
+	padding-bottom:70px !important;
+}
+div#content div#ui-izc div#iz-calender div .calender-months ul li {
+}
+div#content div#ui-izc div#iz-calender ul.calender-month-row ,
+div#content div#iz-calender div#calender-select-year{
+	clear:both;
+	width:177px !important;
+	padding:0;
+}
+div#content div#ui-izc div#iz-calender div.calender-months ul li a:link, 
+div#content div#ui-izc div#iz-calender div.calender-months ul li a:visited,
+div#content div#ui-izc div#iz-calender div.calender-months ul li a:active {
+	background:-moz-linear-gradient(center bottom ,#f2f2f2 , #e7e7e7) repeat scroll 0 0 transparent;
+	background-color:#f2f2f2;
+	width:25px !important;
+	float:left;
+	text-decoration:none;
+	margin:1px !important;
+	border:1px solid #e7e7e7;
+}
+div#content div#ui-izc div#iz-calender div.calender-months ul li a:hover,
+div#content div#ui-izc div#iz-calender div.calender-months ul li.active a:link{
+	background:-moz-linear-gradient(center bottom ,#EFF8FC, #9DD2EA) repeat scroll 0 0 transparent;
+	background-color:#e7e7e7;
+	color:#369;
+	font-weight:bold;
+}
+div#content div#ui-izc div#iz-calender div.wrap div.calender-months {
+	width:180px !important;
+	height:210px !important;
+	float:left !important;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year {
+	width:177px !important;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year ul {
+	padding:0 !important;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year div.calender-year {
+	float:left;
+	text-align:center;
+	width:75px !important;
+	padding-top:4px !important;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.next li a:link,
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.next li a:visited,
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.next li a:active {
+	background:-moz-linear-gradient(left bottom , #F2F2F2, #E7E7E7) repeat scroll 0 0 transparent;
+	float:right !important;
+	color:#999999;
+	text-decoration:none;
+	padding:5px 10px !important;
+	margin:0px;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.next li a:hover {
+	background:-moz-linear-gradient(left bottom , #e7e7e7, #cccccc) repeat scroll 0 0 transparent;
+	color:#666666;
+	text-decoration:none;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:link,
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:visited,
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:active {
+	background:-moz-linear-gradient(right bottom , #F2F2F2, #E7E7E7) repeat scroll 0 0 transparent;
+	float:left;
+	color:#999999;
+	text-decoration:none;
+	padding:5px 10px !important;
+}
+div#content div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:hover {
+	background:-moz-linear-gradient(right bottom , #e7e7e7, #cccccc) repeat scroll 0 0 transparent;
+	color:#666666;
+	text-decoration:none;
+}
+
+
+
+/*Defualt CSS called by user-interface in sidebar */
+
+div#sidebar div#ui-izc div#ui-iz-calender-events {
+	background-color:#F2F2F2;
+	float:left;
+	margin-top:-10px !important;
+	padding:5px !important;
+	width:167px !important;
+}
+div#sidebar div#ui-izc {
+	width:167px !important;
+}
+div#sidebar div#ui-izc div#ui-iz-calender-event-description {
+	float:left;
+	margin-left:15px !important;
+	margin-top:10px !important;
+	width:167px !important;
+	padding:0px 10px 10px 10px;
+}
+div#sidebar div#ui-izc div#iz-calender ul,div#iz-calender ul li{
+	list-style-type:none;
+}
+div#sidebar div#ui-izc div#iz-calender label{
+	cursor:text;
+}
+div#sidebar div#ui-izc div#iz-calender div .calender-months {
+	padding-bottom:70px !important;
+}
+div#sidebar div#ui-izc div#iz-calender div .calender-months ul li {
+}
+div#sidebar div#ui-izc div#iz-calender ul.calender-month-row ,
+div#sidebar div#iz-calender div#calender-select-year{
+	clear:both;
+	width:177px !important;
+	padding:0;
+}
+div#sidebar div#ui-izc div#iz-calender div.calender-months ul li a:link, 
+div#sidebar div#ui-izc div#iz-calender div.calender-months ul li a:visited,
+div#sidebar div#ui-izc div#iz-calender div.calender-months ul li a:active {
+	background:-moz-linear-gradient(center bottom ,#f2f2f2 , #e7e7e7) repeat scroll 0 0 transparent;
+	background-color:#f2f2f2;
+	width:25px !important;
+	float:left;
+	text-decoration:none;
+	margin:1px !important;
+	border:1px solid #e7e7e7;
+}
+div#sidebar div#ui-izc div#iz-calender div.calender-months ul li a:hover,
+div#sidebar div#ui-izc div#iz-calender div.calender-months ul li.active a:link{
+	background:-moz-linear-gradient(center bottom ,#EFF8FC, #9DD2EA) repeat scroll 0 0 transparent;
+	background-color:#e7e7e7;
+	color:#369;
+	font-weight:bold;
+}
+div#sidebar div#ui-izc div#iz-calender div.wrap div.calender-months {
+	width:180px !important;
+	height:210px !important;
+	float:left !important;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year {
+	width:177px !important;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul {
+	padding:0 !important;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year div.calender-year {
+	float:left;
+	text-align:center;
+	width:75px !important;
+	padding-top:4px !important;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.next li a:link,
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.next li a:visited,
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.next li a:active {
+	background:-moz-linear-gradient(left bottom , #F2F2F2, #E7E7E7) repeat scroll 0 0 transparent;
+	float:right !important;
+	color:#999999;
+	text-decoration:none;
+	padding:5px 10px !important;
+	margin:0px;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.next li a:hover {
+	background:-moz-linear-gradient(left bottom , #e7e7e7, #cccccc) repeat scroll 0 0 transparent;
+	color:#666666;
+	text-decoration:none;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:link,
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:visited,
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:active {
+	background:-moz-linear-gradient(right bottom , #F2F2F2, #E7E7E7) repeat scroll 0 0 transparent;
+	float:left;
+	color:#999999;
+	text-decoration:none;
+	padding:5px 10px !important;
+}
+div#sidebar div#ui-izc div#iz-calender div#calender-select-year ul.prev li a:hover {
+	background:-moz-linear-gradient(right bottom , #e7e7e7, #cccccc) repeat scroll 0 0 transparent;
+	color:#666666;
+	text-decoration:none;
+}
